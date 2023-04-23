@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lowerCaseServiceId: true
+  routes:
+    - id: filme
+      uri: lb://filme
+      predicates:
+        - Path=/filmes/**
+
+    - id:
+      uri:
+      predicates:
+        - Path=//**
+
+server:
+  port: 8765
+
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: hyyp://localhost:8761/eureka

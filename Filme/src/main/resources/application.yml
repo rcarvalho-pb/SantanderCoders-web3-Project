@@ -1,0 +1,18 @@
+server:
+  port: 8101
+#  port: ${PORT:0}
+#
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+#    instance:
+#      instanceId: ${spring.application.name}:${spring.application.instance_id:${random.value}}
+
+spring:
+  application:
+    name: filme
+
+omdb.url: http://www.omdbapi.com/?apikey=3b484a54
