@@ -15,4 +15,5 @@ spring:
   application:
     name: filme
 
-omdb.url: http://www.omdbapi.com/?apikey=3b484a54
+omdb.url: http://www.omdbapi.com/
+omdbapi.key: ?apikey=3b484a54

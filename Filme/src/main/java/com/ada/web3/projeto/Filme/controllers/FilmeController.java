@@ -2,7 +2,7 @@ package com.ada.web3.projeto.Filme.controllers;
 
 import com.ada.web3.projeto.Filme.client.FilmeOMDBClient;
 import com.ada.web3.projeto.Filme.model.Filme;
-import com.ada.web3.projeto.Filme.model.ResultList;
+import com.ada.web3.projeto.Filme.model.ResultSearch;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 import reactor.core.publisher.Mono;
@@ -22,7 +22,7 @@ public class FilmeController {
     }
 
     @GetMapping(value = "/search", params = "title")
-    public Mono<ResultList> findByTitle(@RequestParam String title){
+    public Mono<ResultSearch> findByTitle(@RequestParam String title){
 
         return Mono.defer(() -> {
             return client.findByTitle(title);
