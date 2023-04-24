@@ -8,7 +8,7 @@ import java.util.List;
 
 @Data
 @Getter
-public class ResultSearch {
+public class ResultList {
     @JsonProperty("Search")
     private List<Filme> resultList;
 }
