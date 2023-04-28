@@ -21,7 +21,7 @@ public class ClienteApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		Cliente c1 = new Cliente("Ramon", "rcarvalho.pb@gmail.com", "10263903460");
+		Cliente c1 = new Cliente("Ramon", "ramon@gmail.com", "12345");
 		repository.save(c1);
 	}
 }

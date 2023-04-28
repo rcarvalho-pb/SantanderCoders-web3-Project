@@ -14,7 +14,7 @@ spring:
         - Path=/filmes/**
 
     - id: aluguel
-      uri: lb://alguel
+      uri: lb://aluguel
       predicates:
         - Path=/alugueis/**
 

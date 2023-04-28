@@ -5,41 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c518d089-d7dc-4831-9270-e486a2cde057" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Cliente.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aluguel/src/main/java/com/ada/web3/projeto/Aluguel/client/ClientCliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aluguel/src/main/java/com/ada/web3/projeto/Aluguel/client/ClientFilme.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aluguel/src/main/java/com/ada/web3/projeto/Aluguel/controller/AluguelController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aluguel/src/main/java/com/ada/web3/projeto/Aluguel/model/Aluguel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aluguel/src/main/java/com/ada/web3/projeto/Aluguel/model/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aluguel/src/main/java/com/ada/web3/projeto/Aluguel/model/Filme.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aluguel/src/main/java/com/ada/web3/projeto/Aluguel/repository/AluguelRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aluguel/src/main/java/com/ada/web3/projeto/Aluguel/services/AluguelService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cliente/src/main/java/com/ada/web3/projeto/Cliente/controllers/ClienteController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cliente/src/main/java/com/ada/web3/projeto/Cliente/model/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cliente/src/main/java/com/ada/web3/projeto/Cliente/repositories/ClienteRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cliente/src/main/java/com/ada/web3/projeto/Cliente/services/ClienteService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Filme/src/main/java/com/ada/web3/projeto/Filme/service/FilmeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Filme.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Filme.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/com.ada.web3.projeto.Filme.main.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Aluguel/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Aluguel/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aluguel/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Aluguel/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aluguel/src/main/java/com/ada/web3/projeto/Aluguel/AluguelApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aluguel/src/main/java/com/ada/web3/projeto/Aluguel/AluguelApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aluguel/src/main/java/com/ada/web3/projeto/Aluguel/client/ClientFilme.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aluguel/src/main/java/com/ada/web3/projeto/Aluguel/client/ClientFilme.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aluguel/src/main/java/com/ada/web3/projeto/Aluguel/controller/AluguelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aluguel/src/main/java/com/ada/web3/projeto/Aluguel/controller/AluguelController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cliente/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Cliente/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cliente/src/main/java/com/ada/web3/projeto/Cliente/ClienteApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Cliente/src/main/java/com/ada/web3/projeto/Cliente/ClienteApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cliente/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Cliente/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cliente/src/main/java/com/ada/web3/projeto/Cliente/controllers/ClienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Cliente/src/main/java/com/ada/web3/projeto/Cliente/controllers/ClienteController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Filme/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Filme/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Filme/src/main/java/com/ada/web3/projeto/Filme/client/FilmeOMDBClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/Filme/src/main/java/com/ada/web3/projeto/Filme/client/FilmeOMDBClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Filme/src/main/java/com/ada/web3/projeto/Filme/controllers/FilmeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Filme/src/main/java/com/ada/web3/projeto/Filme/controllers/FilmeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Filme/src/main/java/com/ada/web3/projeto/Filme/model/Filme.java" beforeDir="false" afterPath="$PROJECT_DIR$/Filme/src/main/java/com/ada/web3/projeto/Filme/model/Filme.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Filme/src/main/java/com/ada/web3/projeto/Filme/model/dto/FilmeDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Filme/src/main/java/com/ada/web3/projeto/Filme/model/dto/FilmeDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Filme/src/main/java/com/ada/web3/projeto/Filme/repositories/FilmeMongoRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Filme/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Filme/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/ada/web3/projeto/apigateway/ApiGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/ada/web3/projeto/apigateway/ApiGatewayApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,10 +76,15 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "2f197525e9c1031ddefc44b3d322aadf",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -188,8 +168,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ClienteApplication" />
         <item itemvalue="Spring Boot.FilmeApplication" />
+        <item itemvalue="Spring Boot.ClienteApplication" />
         <item itemvalue="Spring Boot.AluguelApplication" />
         <item itemvalue="Spring Boot.ApiGatewayApplication" />
         <item itemvalue="Spring Boot.EurekaServerApplication" />
@@ -204,7 +184,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682638045143</updated>
-      <workItem from="1682638046148" duration="6581000" />
+      <workItem from="1682638046148" duration="8264000" />
+      <workItem from="1682647579625" duration="1683000" />
     </task>
     <servers />
   </component>

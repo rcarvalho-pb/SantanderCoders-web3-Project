@@ -21,7 +21,7 @@ public class ClientFilme {
         return Mono.defer(() -> {
             return client
                     .get()
-                    .uri("filmes/search/" + id)
+                    .uri("/filmes/search/" + id)
                     .retrieve()
                     .bodyToMono(Filme.class);
         }).subscribeOn(Schedulers.parallel());
@@ -32,7 +32,7 @@ public class ClientFilme {
         return Flux.defer(() -> {
             return client
                     .get()
-                    .uri("filmes/search?name=" + name)
+                    .uri("/filmes/search?name=" + name)
                     .retrieve()
                     .bodyToFlux(Filme.class);
         }).subscribeOn(Schedulers.parallel());

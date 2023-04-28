@@ -15,10 +15,10 @@ public class AluguelController {
 
     private final AluguelService service;
 
-    @PostMapping(value = "rent", params = {"clienteId", "filmeId"})
-    public Mono<Aluguel> alugar(@RequestParam String clienteID, @RequestParam String filmeID) {
+    @PostMapping(value = "rent/save")
+    public Mono<Aluguel> alugar(@RequestBody NewRent rent) {
         return Mono.defer(() -> {
-            return service.alugar(clienteID, filmeID);
+            return service.alugar(rent.clienteID(), rent.filmeID());
         }).subscribeOn(Schedulers.parallel());
     }
 
@@ -27,7 +27,7 @@ public class AluguelController {
         return Flux.defer(service::findAll).subscribeOn(Schedulers.parallel());
     }
 
-    @PostMapping("rent/{id}")
+    @PostMapping("return-movie/{id}")
     public Mono<Void> returnAluguel(@PathVariable String id){
         return Mono.defer(() -> {
             return service.returnAluguel(id);
@@ -42,9 +42,9 @@ public class AluguelController {
     }
 
     @GetMapping(value = "search", params = "clienteId")
-    public Flux<Aluguel> findByClient(@RequestParam String name){
+    public Flux<Aluguel> findByClient(@RequestParam String clienteId){
         return Flux.defer(() -> {
-            return service.findByName(name);
+            return service.findByName(clienteId);
         }).subscribeOn(Schedulers.parallel());
     }
 
@@ -54,4 +54,6 @@ public class AluguelController {
             return service.findByMovie(filmeId);
         }).subscribeOn(Schedulers.parallel());
     }
+
+    private record NewRent(String clienteID, String filmeID){}
 }

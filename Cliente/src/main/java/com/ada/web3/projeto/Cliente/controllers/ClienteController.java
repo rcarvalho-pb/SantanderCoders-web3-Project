@@ -17,7 +17,7 @@ public class ClienteController {
 
     private final ClienteService service;
 
-    @GetMapping("find/{cpf}")
+    @GetMapping("search/{cpf}")
     public Mono<Cliente> findByCpf(@PathVariable String cpf) {
         return Mono.defer(() -> {
             log.info("controller");
