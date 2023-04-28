@@ -4,22 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b30e1ff-a32c-4321-8b27-b48022620fd0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules/com.ada.web3.projeto.Filme.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Filme/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Filme/src/main/java/com/ada/web3/projeto/Filme/model/dto/FilmeDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Filme/src/main/java/com/ada/web3/projeto/Filme/repositories/FilmeMongoRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="c518d089-d7dc-4831-9270-e486a2cde057" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Cliente.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aluguel/src/main/java/com/ada/web3/projeto/Aluguel/client/ClientCliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aluguel/src/main/java/com/ada/web3/projeto/Aluguel/client/ClientFilme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aluguel/src/main/java/com/ada/web3/projeto/Aluguel/controller/AluguelController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aluguel/src/main/java/com/ada/web3/projeto/Aluguel/model/Aluguel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aluguel/src/main/java/com/ada/web3/projeto/Aluguel/model/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aluguel/src/main/java/com/ada/web3/projeto/Aluguel/model/Filme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aluguel/src/main/java/com/ada/web3/projeto/Aluguel/repository/AluguelRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aluguel/src/main/java/com/ada/web3/projeto/Aluguel/services/AluguelService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cliente/src/main/java/com/ada/web3/projeto/Cliente/controllers/ClienteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cliente/src/main/java/com/ada/web3/projeto/Cliente/model/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cliente/src/main/java/com/ada/web3/projeto/Cliente/repositories/ClienteRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cliente/src/main/java/com/ada/web3/projeto/Cliente/services/ClienteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Filme/src/main/java/com/ada/web3/projeto/Filme/service/FilmeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Filme.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Filme.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/com.ada.web3.projeto.Filme.main.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aluguel/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Aluguel/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aluguel/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Aluguel/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cliente/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Cliente/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cliente/src/main/java/com/ada/web3/projeto/Cliente/ClienteApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Cliente/src/main/java/com/ada/web3/projeto/Cliente/ClienteApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cliente/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Cliente/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Filme/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Filme/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Filme/src/main/java/com/ada/web3/projeto/Filme/client/FilmeOMDBClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/Filme/src/main/java/com/ada/web3/projeto/Filme/client/FilmeOMDBClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Filme/src/main/java/com/ada/web3/projeto/Filme/controllers/FilmeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Filme/src/main/java/com/ada/web3/projeto/Filme/controllers/FilmeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Filme/src/main/java/com/ada/web3/projeto/Filme/model/ResultList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Filme/src/main/java/com/ada/web3/projeto/Filme/model/ResultSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Filme/src/main/java/com/ada/web3/projeto/Filme/model/Filme.java" beforeDir="false" afterPath="$PROJECT_DIR$/Filme/src/main/java/com/ada/web3/projeto/Filme/model/Filme.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Filme/src/main/java/com/ada/web3/projeto/Filme/model/dto/FilmeDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Filme/src/main/java/com/ada/web3/projeto/Filme/model/dto/FilmeDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Filme/src/main/java/com/ada/web3/projeto/Filme/repositories/FilmeMongoRepository.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Filme/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Filme/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/ada/web3/projeto/apigateway/ApiGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/ada/web3/projeto/apigateway/ApiGatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,27 +80,19 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="Interface" />
       </list>
     </option>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2OsSbFUKOyVlT9EEZsaUHmagiPC" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="2P1wlDLnwcVYJvQmP8jzurzKKoB" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -88,17 +101,18 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/ramon.carvalho/IdeaProjects/SantanderCoders-web3-Project",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "spring.configuration.checksum": "39f03674e4e291ba716ae720870a40b2",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ada.web3.projeto.Aluguel.model" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -106,10 +120,49 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.FilmeApplication">
-    <configuration name="EurekaServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ada.web3.projeto.eurekaserver.EurekaServerApplication" />
+  <component name="RunManager" selected="Spring Boot.AluguelApplication">
+    <configuration name="AluguelApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Aluguel.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ada.web3.projeto.Aluguel.AluguelApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ada.web3.projeto.Aluguel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="api-gateway.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ada.web3.projeto.apigateway.ApiGatewayApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ada.web3.projeto.apigateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClienteApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Cliente.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ada.web3.projeto.Cliente.ClienteApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ada.web3.projeto.Cliente.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="eureka-server.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ada.web3.projeto.eurekaserver.EurekaServerApplication" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ada.web3.projeto.eurekaserver.*" />
@@ -120,9 +173,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FilmeApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ada.web3.projeto.Filme.FilmeApplication" />
+    <configuration name="FilmeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="Filme.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ada.web3.projeto.Filme.FilmeApplication" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ada.web3.projeto.Filme.*" />
@@ -133,64 +186,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AluguelApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="Aluguel.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ada.web3.projeto.Aluguel.AluguelApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="api-gateway.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ada.web3.projeto.apigateway.ApiGatewayApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ClienteApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="Cliente.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ada.web3.projeto.Cliente.ClienteApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="eureka-server.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ada.web3.projeto.eurekaserver.EurekaServerApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FilmeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="com.ada.web3.projeto.Filme.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ada.web3.projeto.Filme.FilmeApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FilmeApplication" />
-        <item itemvalue="Application.EurekaServerApplication" />
+        <item itemvalue="Spring Boot.ClienteApplication" />
+        <item itemvalue="Spring Boot.FilmeApplication" />
+        <item itemvalue="Spring Boot.AluguelApplication" />
+        <item itemvalue="Spring Boot.ApiGatewayApplication" />
+        <item itemvalue="Spring Boot.EurekaServerApplication" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1b30e1ff-a32c-4321-8b27-b48022620fd0" name="Changes" comment="" />
-      <created>1682347866055</created>
+      <changelist id="c518d089-d7dc-4831-9270-e486a2cde057" name="Changes" comment="" />
+      <created>1682638045143</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1682347866055</updated>
-      <workItem from="1682375262341" duration="1102000" />
+      <updated>1682638045143</updated>
+      <workItem from="1682638046148" duration="6581000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

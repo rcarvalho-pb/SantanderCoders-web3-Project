@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Aluguel.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Aluguel.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Cliente.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Cliente.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Filme.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Filme.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/SantanderCoders-web3-Project.iml" filepath="$PROJECT_DIR$/.idea/SantanderCoders-web3-Project.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.ada.web3.projeto.Filme.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.ada.web3.projeto.Filme.main.iml" />
     </modules>
   </component>
 </project>
