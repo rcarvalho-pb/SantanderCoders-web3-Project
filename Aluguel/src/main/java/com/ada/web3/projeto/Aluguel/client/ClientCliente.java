@@ -21,7 +21,7 @@ public class ClientCliente {
         return Mono.defer(() -> {
             return client
                     .get()
-                    .uri("clientes/search/" + cpf)
+                    .uri("/clientes/search/" + cpf)
                     .retrieve()
                     .bodyToMono(Cliente.class);
         }).subscribeOn(Schedulers.parallel());
@@ -31,7 +31,7 @@ public class ClientCliente {
         return Flux.defer(() -> {
             return client
                     .get()
-                    .uri("clientes/search?name=" + name)
+                    .uri("/clientes/search?name=" + name)
                     .retrieve()
                     .bodyToFlux(Cliente.class);
         }).subscribeOn(Schedulers.parallel());
